@@ -1,0 +1,33 @@
+.contenedorprincipal{
+    position: absolute;
+    height: 600px;
+    width: 800px;
+   background:  rgb(116, 116, 243);
+   text-align: center;
+   top: 50%;
+   right: 50%;
+   transform: translate(50%,-50%);
+   border-radius: 30px;
+   }
+   .cardbody{
+   background: white;
+   height: 90%;
+   padding: 20px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px ;
+   }
+   body{
+       background-image: url(https://lh3.googleusercontent.com/proxy/-155LRdmBkjBD5Cjj_Vb6znoCll7BnkQhmSJmsa-G1YXoSjdcVjYP2-E1OYo6uaCYqoCa-fcmliwYw_JfnqT81ArcoPQdhnUYG9Gu0nCrap0);
+       background-size: cover;
+    
+       
+   }
+   .estilostexto{
+   margin-top: 10%;
+   }
+   .estilotext{
+   margin-top: 10%;    
+   }
+   .text3{
+       margin-top: 15%;
+   }
