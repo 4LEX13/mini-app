@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Notas</title>
+    <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -21,30 +21,30 @@
 
         <div class= nota>
         <label for="nota"> Nota </label> <br>
-        <input type="number" name="nota" id=""> <br>
+        <input type="text" name="nota" id=""> <br>
         </div>
 
         <div class= materia>
             <label for="materia"> Materia </label> <br>
              <select name="Materia">
 
-                <option value="1">Lenguaje</option>
+                <option>Lenguaje</option>
                 
-                <option value="2">Matematica</option>
+                <option>Matematica</option>
                 
-                <option value="3">Sociales</option>
+                <option>Sociales</option>
 
-                <option value="4">Ciencias Salud y Medio Ambiente</option>
+                <option>Ciencias Salud y Medio Ambiente</option>
                 
                 </select>
 
 
 
         </div>
-
+        <a th:href="agregar"></a>
         <div class=boton1>
             <label for="boton" >  </label> <br>   
-            <input type="button" value="Registrar" name="boton" id=""> <br>
+            <input type="button" value="Enviar" name="boton" id=""> <br>
         </div>
       
     </div>
