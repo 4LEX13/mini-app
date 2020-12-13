@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title th:text="${titulo}">Document</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -41,9 +42,9 @@
 
 
         </div>
-        <a th:href="agregar"></a>
+        
         <div class=boton1>
-            <label for="boton" >  </label> <br>   
+            <label th for="boton" >  </label> <br>   
             <input type="button" value="Enviar" name="boton" id=""> <br>
         </div>
       

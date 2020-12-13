@@ -15,6 +15,7 @@
    padding: 20px;
    border-bottom-left-radius: 30px;
    border-bottom-right-radius: 30px;
+   
    }
    body{
        background-image: url(https://lh3.googleusercontent.com/proxy/-155LRdmBkjBD5Cjj_Vb6znoCll7BnkQhmSJmsa-G1YXoSjdcVjYP2-E1OYo6uaCYqoCa-fcmliwYw_JfnqT81ArcoPQdhnUYG9Gu0nCrap0);
@@ -35,4 +36,5 @@
    }
    .materia{
        margin-top: 15%;
+       
    }
