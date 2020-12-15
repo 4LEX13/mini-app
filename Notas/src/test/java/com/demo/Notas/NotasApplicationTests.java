@@ -1,10 +1,10 @@
-package com.unab.Backend;
+package com.demo.Notas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackendApplicationTests {
+class NotasApplicationTests {
 
 	@Test
 	void contextLoads() {
