@@ -1,14 +1,28 @@
 @charset "ISO-8859-1";
 .estatura{
-	   position: absolute;
-    height: 400px;
-    width: 600px;
-    background:  white;
-    text-align: center;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    border-top-right-radius: 20px;
-    border:1px solid rgb(25,25,25);
+    position: absolute;
+    height: 600px;
+    width: 800px;
+   background:  #60D4B6;
+   text-align:center;
+   top: 50%;
+   right: 50%;
+   transform: translate(50%,-50%);
+   border-radius: 30px;
+   
+
+	
+}
+body{
+    background-image: url(https://images.alphacoders.com/986/986566.jpg);
+    background-size: cover;
+}
+.cuerpo{
+	color:black;
+	
+	
+}
+.table-dark{
+	
 	
 }

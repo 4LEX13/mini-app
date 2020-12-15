@@ -10,27 +10,27 @@
 
 <a class="btn btn-success" th:href="@{/Agregar}"> AGREGAR</a>
 <div class="estatura">
-<table class="table-dark">
-<thead>
+<table class="table-dark" style="margin: 0 auto;" border="1"  >
+<tr>
 
-<th>NOMBRE </th> 
-<th>APELLIDO </th> 
-<th>MATERIA </th> 
-<th>NOTA </th> 
-<th>EDITAR </th>
-<th>ELIMINAR </th>
+<td >NOMBRE </td> 
+<td>APELLIDO </td> 
+<td>MATERIA </td> 
+<td>NOTA </td> 
+<td>EDITAR </td>
+<td>ELIMINAR </td>
 
-</thead>
+</tr>
 
-<tbody>
+<tbody class=cuerpo border="1" >
 <tr  class="table-active" th:each="Notas: ${Nota}">
 <td  th:text="${Notas.nombre}"> </td>
 <td  th:text="${Notas.apellido}"> </td>
 <td  th:text="${Notas.materia}"> </td>
 <td  th:text="${Notas.nota}"> </td>
 
- <td><a  th:href="@{/editar/} + ${Notas.id_nota}" > EDITAR</a> </td>
- <td><a th:href="@{/eliminar/} + ${Notas.id_nota}" > ELIMINAR</a> </td>
+ <td><a  th:href="@{/editar/} + ${Notas.id_nota}" style="color: black;" > EDITAR</a> </td>
+ <td><a th:href="@{/eliminar/} + ${Notas.id_nota}"  style="color: black;"> ELIMINAR</a> </td>
  </tr>
 </tbody>
 </table>

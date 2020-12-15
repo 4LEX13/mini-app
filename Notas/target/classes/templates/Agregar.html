@@ -4,29 +4,37 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<body>
-<a class="btn btn-success" th:href="@{/}"> REGRESAR</a>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" >
+<div style="background-image: url(https://images.alphacoders.com/986/986566.jpg);">
+<body align=center>
 
 <form th:action="@{/guardar}" method="post" th:object="${nota}" >
-
+<div class=tablap align=center>
 <input type="hidden" name="id_nota" th:field="*{id_nota}">
 
 <br>
-<label for="nombre">Nombre:</label> 
+<label for="nombre" style="color:white;">Nombre:</label> 
 <input type="text" name="nombre" th:field="*{nombre}" >
-<br>
-<label for="apellido">Apellido:</label>
+<hr style="border:15px;" ><hr style="border:2px;">
+<label for="apellido" style="color:white;">Apellido:</label>
 <input type="text" name="apellido" th:field="*{apellido}" >
-<br>
-<label for="materia">Materia:</label>
+<hr style="border:15px;"><hr style="border:2px;">
+<label for="materia" style="color:white;">Materia:</label>
 <input type="text" name="materia" th:field="*{materia}" >
-<br>
-<label for="nota">Nota:</label>
+<hr style="border:15px;"><hr style="border:2px;">
+<label for="nota" style="color:white;">Nota:</label>
 <input type="text" name="nota" th:field="*{nota}" >
-<br><br>
-<input type="submit" name="guardar" value="GUARDAR">
+<hr style="border:15px;"><hr style="border:2px;" ><br>
+</div>
+
+<a class="btn btn-success" th:href="@{/}"><input type="submit" name="guardar" value="GUARDAR"></a>
+<hr style="color:white;">
+<div class=regresar>
+<a class="btn btn-success" th:href="@{/}"> REGRESAR</a>
+</div>
 
 </form>
+
 </body>
+</div>
 </html>
