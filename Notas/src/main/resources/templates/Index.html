@@ -24,10 +24,10 @@
 
 <tbody class=cuerpo border="1" >
 <tr  class="table-active" th:each="Notas: ${Nota}">
-<td  th:text="${Notas.nombre}"> </td>
-<td  th:text="${Notas.apellido}"> </td>
-<td  th:text="${Notas.materia}"> </td>
-<td  th:text="${Notas.nota}"> </td>
+<td  th:text="${Notass.nombre}"> </td>
+<td  th:text="${Notass.apellido}"> </td>
+<td  th:text="${Notass.materia}"> </td>
+<td  th:text="${Notass.nota}"> </td>
 
  <td><a  th:href="@{/editar/} + ${Notas.id_nota}" style="color: black;" > EDITAR</a> </td>
  <td><a th:href="@{/eliminar/} + ${Notas.id_nota}"  style="color: black;"> ELIMINAR</a> </td>
